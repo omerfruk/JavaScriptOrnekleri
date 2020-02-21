@@ -32,3 +32,23 @@ document.write(greeting);
 
 JavaScript is case sensitive so hourNow means
 something different to HourNow or HOURNOW.
+
+## COMMENTS
+
+'''js
+
+/_ This script displays a greeting to the user based upon the current time. It is an example from JavaScript & jQuer y book _/
+
+var today= new Date(); // Create a new date object
+var hour Now = today.getHours(); //find the current hour
+var greeting;
+
+'''
+
+> {
+
+    JavaScript codeis **green**
+    Multi-line comments are **pink**
+    Single-line comments are **gray**
+
+}
