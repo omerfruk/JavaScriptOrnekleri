@@ -3,13 +3,13 @@ var hourNow = today.getHours();
 var greeting;
 
 if (hourNow > 18) {
-  greeting = "good evening!";
+  greeting = "Good evening!";
 } else if (hourNow > 12) {
-  greeting = "good afternoon!";
+  greeting = "Good afternoon!";
 } else if (hourNow > 0) {
-  greeting = "good morning!";
+  greeting = "Good morning!";
 } else {
-  greeting = "welcome!";
+  greeting = "Welcome!";
 }
 
-documant.write("<h3>" + greeting + "</h3>");
+document.write("<h3>" + greeting + "</h3>");
