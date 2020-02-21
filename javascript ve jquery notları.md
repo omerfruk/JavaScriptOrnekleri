@@ -35,20 +35,17 @@ something different to HourNow or HOURNOW.
 
 ## COMMENTS
 
-'''js
+~~~js
 
-/_ This script displays a greeting to the user based upon the current time. It is an example from JavaScript & jQuer y book _/
+/* This script displays a greeting to the user based upon the current time. 
+It is an example from JavaScript & jQuer y book */
 
 var today= new Date(); // Create a new date object
 var hour Now = today.getHours(); //find the current hour
 var greeting;
 
-'''
+~~~
 
-> {
+if you want to add comments in your code, you must be use (/\*multi-line comments*/ or //single-line commants )
 
-    JavaScript codeis **green**
-    Multi-line comments are **pink**
-    Single-line comments are **gray**
 
-}
