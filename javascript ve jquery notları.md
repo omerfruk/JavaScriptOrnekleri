@@ -33,7 +33,7 @@ document.write(greeting);
 JavaScript is case sensitive so hourNow means
 something different to HourNow or HOURNOW.
 
-## COMMENTS
+## Comments
 
 ~~~js
 
@@ -48,4 +48,34 @@ var greeting;
 
 if you want to add comments in your code, you must be use (/\*multi-line comments*/ or //single-line commants )
 
+## Variables
 
+The use of variables to represent numbers or oth er
+kinds of data is very similar to the concep t of algebra
+(where letters are used to represent numbers).
+
+**Variables :** How to declare them
+
+~~~js
+var quantity;
+~~~
+
+**var :** Variable Keyword
+
+> The JavaScript interpreter knows that this keyword is used to create a variables
+
+**quantity :** Variable Name 
+
+**Variavles :** How to assign them a value
+
+~~~js
+
+quantity = 3;
+
+~~~
+
+**quantity :** Variable Name
+
+**= :** Assignment Operator
+
+**3 :** Variable Value
