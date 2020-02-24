@@ -112,3 +112,16 @@ By parentheses
 SayHello();
 
 ~~~
+
+### Declaring function that need information 
+
+Sometimes a function need specific information the perform its tesk. In such cases, when you declare the function you give it 
+Parametres. Inside the function, the parametres act like variable. 
+
+
+~~~js
+function getArea(width,height){
+    return width×height;
+}
+~~~
+
