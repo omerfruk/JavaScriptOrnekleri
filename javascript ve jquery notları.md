@@ -103,4 +103,12 @@ function sayHeloo() {
 
 Code block (in curly braces)
 
+### calling a function
 
+To run the code in the function, you use the function name followed 
+By parentheses
+
+~~~js
+SayHello();
+
+~~~
