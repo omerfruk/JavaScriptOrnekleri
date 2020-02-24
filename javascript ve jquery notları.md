@@ -79,3 +79,28 @@ quantity = 3;
 **= :** Assignment Operator
 
 **3 :** Variable Value
+
+## Function 
+
+To create a **function** you give it a name and then write statemants needed the achieve its task inside the curly braces 
+
+
+~~~js
+ 
+function sayHeloo() {
+    document.write("Hello");
+}
+
+~~~
+
+##### function : function keyword
+
+##### sayHeloo() : function name 
+
+~~~js
+  document.write("Hello");
+~~~
+
+Code block (in curly braces)
+
+
